@@ -6,8 +6,6 @@
         let tmr1 = undefined;
         let A = 1, B = 1;
 
-        // This is copied, pasted, reformatted, and ported directly from my original
-        // donut.c code
         let asciiframe = function () {
             let b = [];
             let z = [];
@@ -41,12 +39,12 @@
         };
 
         //window.anim1 = function () {
-            if (tmr1 === undefined) {
-                tmr1 = setInterval(asciiframe, 50);
-            } else {
-                clearInterval(tmr1);
-                tmr1 = undefined;
-            }
+        if (tmr1 === undefined) {
+            tmr1 = setInterval(asciiframe, 50);
+        } else {
+            clearInterval(tmr1);
+            tmr1 = undefined;
+        }
         //};
 
         asciiframe();

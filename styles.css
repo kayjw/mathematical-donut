@@ -23,15 +23,6 @@ pre {
     font-size: 10pt;
 }
 
-/* button {
-    background-color: transparent;
-    border: 1px solid rgb(68, 68, 68);
-    border-radius: 3px;
-    color: white;
-    padding: 10px;
-    transition-property: border;
-} */
-
 input {
     background-color: transparent;
     border: 1px solid rgb(68, 68, 68);
@@ -39,9 +30,3 @@ input {
     color: white;
     padding: 10px;
 }
-/* 
-button:hover {
-    cursor: pointer;
-    border-color: white;
-    transition: 0.8s;
-} */
